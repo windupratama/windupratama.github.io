@@ -1,0 +1,73 @@
+@media screen and (orientation: portrait){
+  .folder{
+    position: absolute; margin: auto;
+    top: 40%; left: 50%;
+    -moz-transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    width: 25vw;
+    overflow: hidden;
+    scroll: no;
+  }
+  .text{
+    position: fixed; margin: auto;
+    top: 52.5%; left: 55%;
+    -moz-transform: translate(-55%, -52.5%);
+    -webkit-transform: translate(-55%, -52.5%);
+    transform: translate(-55%, -52.5%);
+    font-size: 2.35vw;
+    color: black;}
+  .onclick{
+    position: absolute;
+    top: 45%;
+    left: 54%;
+    -moz-transform: translate(-54%, -45%);
+    -webkit-transform: translate(-54%, -45%);
+    transform: translate(-54%, -45%);
+    background-color: transparent;
+    padding: 20vw 24vw;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;}
+}
+
+@media screen and (orientation: landscape){
+  .folder{
+    position: absolute; margin: auto;
+    top: 40%; left: 50%;
+    -moz-transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    width: 15vw;
+    overflow: hidden;
+    scroll: no;
+  }
+  .text{
+    position: fixed; margin: auto;
+    top: 70%; left: 54%;
+    -moz-transform: translate(-54%, -70%);
+    -webkit-transform: translate(-54%, -70%);
+    transform: translate(-54%, -70%);
+    font-size: 1.6vw;
+    color: black; }
+  .onclick{
+    position: absolute;
+    top: 58%;
+    left: 52.3%;
+    -moz-transform: translate(-52.3%, -58%);
+    -webkit-transform: translate(-52.3%, -58%);
+    transform: translate(-52.3%, -58%);
+    background-color: transparent;
+    padding: 12.5vw 17vw;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    outline: none !important;
+    white-space: nowrap;
+    overflow: hidden;}
+}

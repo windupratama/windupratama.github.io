@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "pixel";
+  src: URL("/assets/font/pixel.ttf") format("truetype");}
+  
+html body{
+  height: 100%;
+  background-color:#FFFFFF;
+  font-family: "pixel";
+  color: white;
+}
