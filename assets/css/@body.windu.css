@@ -1,12 +1,22 @@
 html body{
-  background-color: pink;
+  background-color: black;
 }
 
 .text{
-  font-size: 2.35vw;
-  color: black;}
+  font-size: 3.7vw;
+  color: white;}
 .text2{
-  font-size: 2.35vw;
-  color: black;
+  font-size: 4vw;
+  color: white;
   text-align: left;
 }
+.img{
+  position: absolute; margin: auto;
+  top: 93%; left: 25%;
+  -moz-transform: translate(-25%, -93%);
+  -webkit-transform: translate(-25%, -93%);
+  transform: translate(-25%, -93%);
+  width: 40vw;
+  overflow: hidden;
+  scroll: no;
+  }
