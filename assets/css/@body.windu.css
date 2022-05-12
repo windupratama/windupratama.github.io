@@ -1,0 +1,12 @@
+html body{
+  background-color: pink;
+}
+
+.text{
+  font-size: 2.35vw;
+  color: black;}
+.text2{
+  font-size: 2.35vw;
+  color: black;
+  text-align: left;
+}
