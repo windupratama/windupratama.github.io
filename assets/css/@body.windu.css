@@ -1,21 +1,23 @@
 html body{
   background-color: black;
 }
-
-.text{
-  font-size: 3.7vw;
-  color: white;}
-.text2{
-  font-size: 4vw;
-  color: white;
-  text-align: left;
+.button.back{
+  
 }
+.text{
+  font-size: 3.4vw;
+  color: white;
+  text-align: center;}
+.text2{
+  font-size: 3.4vw;
+  color: white;
+  text-align: center;}
 .img{
   position: absolute; margin: auto;
-  top: 93%; left: 25%;
-  -moz-transform: translate(-25%, -93%);
-  -webkit-transform: translate(-25%, -93%);
-  transform: translate(-25%, -93%);
+  top: 90%; left: 50%;
+  -moz-transform: translate(-50%, -90%);
+  -webkit-transform: translate(-50%, -90%);
+  transform: translate(-50%, -90%);
   width: 40vw;
   overflow: hidden;
   scroll: no;
