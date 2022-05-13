@@ -1,0 +1,10 @@
+.img{
+    position: absolute; margin: auto;
+    top: 40%; left: 50%;
+    -moz-transform: translate(-50%, -40%);
+    -webkit-transform: translate(-50%, -40%);
+    transform: translate(-50%, -40%);
+    width: 25vw;
+    overflow: hidden;
+    scroll: no;
+  }
