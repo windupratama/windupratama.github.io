@@ -4,13 +4,20 @@ html body{
 @media screen and (orientation: portrait){
   .text{
     position: absolute;
-    top: 8%; left: 0%;
+    top: 20%; left: 0%;
+    -moz-transform: translate(-0%, -20%);
+    -webkit-transform: translate(-0%, -20%);
+    transform: translate(-0%, -20%);
     font-size: 3.5vw;
     color: white;
     text-align: center;}
   .text2{
     position: absolute;
-    top: 58%; left: 40%;
+    top: 50%; left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
     font-size: 3.5vw;
     color: white;
     text-align: center;}
@@ -21,6 +28,36 @@ html body{
     -webkit-transform: translate(-50%, -90%);
     transform: translate(-50%, -90%);
     width: 40vw;
+    overflow: hidden;
+    scroll: no;}
+}
+
+@media screen and (orientation: landscape){
+  .text{
+    position: absolute;
+    top: 20%; left: 0%;
+    -moz-transform: translate(-0%, -20%);
+    -webkit-transform: translate(-0%, -20%);
+    transform: translate(-0%, -20%);
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;}
+  .text2{
+    position: absolute;
+    top: 50%; left: 50%;
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.5vw;
+    color: white;
+    text-align: center;}
+  .img{
+    position: absolute; margin: auto;
+    top: 90%; left: 50%;
+    -moz-transform: translate(-50%, -90%);
+    -webkit-transform: translate(-50%, -90%);
+    transform: translate(-50%, -90%);
+    width: 15vw;
     overflow: hidden;
     scroll: no;}
 }
